@@ -13,10 +13,13 @@ var gApp = angular.module('gApp', []);
             "잘 부탁드립니다.",
             "《보유기술》",
 			"- Java(Spring, JSP, Servlet, Hadoop)",
-            "- Python",
+	                "- Python",
 			"- HTML & CSS & JavaScript(jQuery)",
 			"- Database(MySQL, MariaDB)",
-			"- OS(Linux, Windows)"
+			"- OS(Linux, Windows)",
+	    "《프로필》",
+		        "- 1992년생",
+		        "- 일본 나고야대학 문학부 심리학과 졸업"
 			];
     });
 	gApp.controller('gCtrl', function($scope) {
